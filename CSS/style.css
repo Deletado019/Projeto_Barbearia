@@ -8,13 +8,15 @@ header nav{
     justify-content: space-between;
     align-items: center;
     height: 15vh;
-    
+    padding: 0px 5px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 header nav ul{
     display: flex;
     list-style: none;
     gap: 30px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 header nav a{
     text-decoration: none;
@@ -36,9 +38,136 @@ header nav img{
     background-size: cover;
     height: 85vh;
     display: flex;
-    filter: grayscale(1.9);
+    align-items: center;
+    
+    
+
+
+   
 }
+
+#banner-texto{
+    
+    width: 1200px;
+    margin: 0 auto;
+}
+#banner-texto h1{
+    color: #fff;
+    font-size: 6rem;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 5px;
+    
+}
+#banner-texto h5{
+    color: #3264A6;
+    font-size:2rem;
+    letter-spacing: 3px;}
+
+#banner-texto h4{
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0 0 10px white;
+
+}
+
+#banner-texto button{
+    padding: 8px 14px;
+    border-radius: 4px;
+    background: #3264A6;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px #fff;
+    cursor: pointer;
+
+}
+
+#banner-texto button:hover{
+    transform: scale(1.03);
+    transition:0,5s;
+    background: #ff0000;
+
+
+}
+
+#servicos{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#servicos h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+
+#servicos-icones{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#servicos-icones div{
+    flex: 1 1 calc(33.3% - 30px);
+}
+#servicos-icones img{
+    width: 130px;
+}
+
+ 
 body{
     margin: 0;
     
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#promocoes{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+
+}
+#promocoes div{
+    flex: 1 1 calc(50% - 30px);
+}
+#promocoes img{
+    width: 100%;
+}
+#promocoes h3{
+    color: #ff0000;
+
+}
+#promocoes h2{
+    font-size: 2rem
+}
+#promocoes ul{
+    list-style-type: none;
+    padding left: 0;
+
+}
+#promocoes ul li::before{
+    content: "\2713";
+    padding-right: 8px;
+    color: #ff0000;
+}
+#promocoes button{
+    padding: 10px;
+    background: #3264A6;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+#promocoes button:hover{
+    transform: scale(1.03);
+    transition:0,5s;
+    background: #ff0000;
 }
