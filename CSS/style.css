@@ -171,3 +171,23 @@ html{
     transition:0,5s;
     background: #ff0000;
 }
+#promocoes2 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
+#promocoes2 {
+    flex: 1 1 calc(50% - 30px);
+}
+#promocoes2 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#promocoes2 ul li::before {
+    content: "\2713";
+    color: #ff0000;
+    padding-right: 8px;
+    
+}
