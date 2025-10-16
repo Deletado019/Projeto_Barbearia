@@ -145,7 +145,8 @@ html{
 
 }
 #promocoes h2{
-    font-size: 2rem
+    font-size: 2rem;
+
 }
 #promocoes ul{
     list-style-type: none;
@@ -163,28 +164,114 @@ html{
     color: #fff;
     font-weight: bold;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 1rem;
 }
 #promocoes button:hover{
     transform: scale(1.03);
     transition:0,5s;
     background: #ff0000;
+    cursor: pointer;
 }
-#promocoes2 {
+#promocoes2{
     width: 1200px;
-    gap: 30px;
     display: flex;
-    margin-top: 70px;
-    margin: 0 auto;
+  padding-right: 8px;
+  gap: 30px;
+  margin-top: 0 auto;
+  margin: 0 auto;
+  flex: 1 1 calc(30% - 50px);
 }
 #promocoes2 ul{
     list-style-type: none;
-    font-size: 1rem;
     padding-left: 0;
+}
+#promocoes2 h2{
+    font-size: 1.2rem;
 }
 #promocoes2 ul li::before{
     content: "\2713";
-    color: #ff0000;
     padding-right: 8px;
+    color: #ff0000;
 }
+#promocoes2 button{
+    background: #3264A6;
+    color: #fff;
+     font-weight: bold;
+     padding: 8px;
+     border: none;
+     border-radius: 5px;
+     font-size: 1rem;
+}
+#promocoes2 button:hover{
+    background: #ff0000;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0,5s;
+}
+#avaliacao-img1{
+    background: url(../IMG/gordon-cowie-gjua-5icM2U-unsplash.jpg)no-repeat center center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 50%;
+}
+#avaliacoes{
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 120px auto;
+}
+    
+#avaliacao-img2{
+    background: url(../IMG/albert-dera-ILip77SbmOE-unsplash.jpg)no-repeat center center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 50%;
+}
+#avaliacao-img3{
+    background: url(../IMG/nartan-buyukyildiz-hr_feH2URs0-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 50%;
+}
+#avaliacoes h4{
+    color: #ff0000;
+    font-size: 1.3rem;
+}
+.avaliacao-card{
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 4px[];
+}
+#Agendamento-banner{
+    background: red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    background: url(../IMG/18.jpg)no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+    #Agendamento-banner  h2{
+        font-size: 3rem;
+        margin-top: 0px;
+    } 
+    #Agendamento-banner h5{
+        font-size: 1.2rem;
+    }
+    #Agendamento{
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 800px;
+        background: #fff;
+        margin-top: -80px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
