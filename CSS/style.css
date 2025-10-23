@@ -2,8 +2,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
-
+header{
+    background: #000000;
+    padding: 5px
+}
 header nav{
+    color: ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,6 +17,7 @@ header nav{
     margin: 0 auto;
 }
 header nav ul{
+    color: ;
     display: flex;
     list-style: none;
     gap: 30px;
@@ -20,21 +25,22 @@ header nav ul{
 }
 header nav a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    font-size: 1.2rem;
     padding: 8px 12px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 header nav a:hover{
-    background: #0800ff8d;
-    color: #fff;
+    background:#fff ;
+    color: #000000;
 }
 header nav img{
-    width: 220px;
+    width: 150px;
 }
 
 #banner{
-    background: url(../IMG/06.jpg) no-repeat center center fixed;
+    background: url(../IMG/banner.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 85vh;
     display: flex;
@@ -50,18 +56,27 @@ header nav img{
     
     width: 1200px;
     margin: 0 auto;
+    background: #0000008a;
+    padding: 10px;
+    border-radius: 4px;
 }
 #banner-texto h1{
     color: #fff;
     font-size: 6rem;
     text-shadow: 0 0 10px #000;
     letter-spacing: 5px;
+    margin: 0;
+    margin: 30px 0;
     
-}
+} 
+
 #banner-texto h5{
-    color: #3264A6;
+    color: #ff0000;
     font-size:2rem;
-    letter-spacing: 3px;}
+    letter-spacing: 3px;
+    margin: 0;
+    margin: 30px 0;
+}
 
 #banner-texto h4{
     color: white;
@@ -76,8 +91,8 @@ header nav img{
     background: #3264A6;
     color: #fff;
     text-transform: uppercase;
-    border: none;
-    font-size: 2rem;
+    border: none;   
+    font-size: 1.5rem;
     font-weight: bold;
     box-shadow: 2px 2px 1px #fff;
     cursor: pointer;
@@ -330,5 +345,26 @@ html{
         background: #000;
         color: #fff;
     }
+    .btn-enviar{
+         border: none;
+         border-radius: 4px;
+         background: #000;
+         color: #fff;
+         font-size: 1.2rem;
+         cursor: pointer;
+    }
+    .btn-enviar a:hover{
+        background: #000000bc;
+    }
+    #seta{
+        color: #f22727;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+    }
     
+    #seta a{
+        color: #f22727;
+    }
     
