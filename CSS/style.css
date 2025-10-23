@@ -297,6 +297,38 @@ html{
     }
 
     #Agendamento a{
-        
         color: #000;
     }
+    #footer-principal    {
+        background:#000 ;
+        color: #fff;
+        display: flex;
+        gap: 30px;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+    footer div{
+        flex: 1 1 calc(33.3% - 30px);
+        justify-items: center ;
+        justify-self: center;
+        
+        
+    }
+    footer a{
+        color: #fff;
+        text-decoration: none;
+    }
+    #Sociais{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        gap: 30px;
+        
+    }
+    #copy{
+        text-align: center;
+        background: #000;
+        color: #fff;
+    }
+    
+    
